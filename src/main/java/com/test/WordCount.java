@@ -1,4 +1,4 @@
-package com.api;
+package com.test;
 
 public class WordCount {
     private String word;

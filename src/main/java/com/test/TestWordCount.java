@@ -1,9 +1,9 @@
-package com;
+package com.test;
+
 import com.api.*;
 import com.config.StreamConfig;
 import com.operator.SinkOperator;
 import com.operator.SourceOperator;
-import com.test.WordCount;
 import com.window.WindowDataProcessor;
 
 import java.util.ArrayList;
@@ -12,8 +12,8 @@ import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class Main {
-    private static final long WINDOW_SIZE = 1 * 60 * 1000; // 5 minutes in milliseconds
+public class TestWordCount {
+    private static final long WINDOW_SIZE = 5 * 60 * 1000; // 5 minutes in milliseconds
     private static List<String> windowData = new ArrayList<>();
 
     public static void main(String[] args) {

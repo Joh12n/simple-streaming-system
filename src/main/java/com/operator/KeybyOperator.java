@@ -1,4 +1,7 @@
-package com.api;
+package com.operator;
+
+import com.api.DataStream;
+import com.api.StreamOperator;
 
 import java.util.ArrayList;
 import java.util.HashMap;

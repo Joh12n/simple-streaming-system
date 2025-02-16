@@ -1,4 +1,6 @@
-package com.api;
+package com.operator;
+
+import com.api.DataStream;
 
 import java.util.*;
 import java.util.function.BinaryOperator;
